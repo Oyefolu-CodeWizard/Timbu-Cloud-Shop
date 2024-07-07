@@ -28,3 +28,6 @@ p {
   outline: none;
   padding: 0 10px;
 }
+.search input::placeholder {
+  font-family: "Satoshi", sans-serif;
+}
