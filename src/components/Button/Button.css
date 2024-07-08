@@ -1,0 +1,10 @@
+button {
+  width: 247px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  border: 2px solid #fca518;
+  border-radius: 62px;
+  background-color: rgba(252, 165, 24, 0.1);
+}

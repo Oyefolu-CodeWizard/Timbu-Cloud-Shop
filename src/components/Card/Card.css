@@ -1,0 +1,19 @@
+.card {
+  width: 295px;
+  height: 506px;
+  border-radius: 20px;
+  padding: 1.5rem;
+  font-family: "Satoshi", sans-serif;
+  border: 1px solid blue;
+}
+.card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.card p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  margin-bottom: 4px;
+}

@@ -11,17 +11,17 @@
   position: absolute;
   margin-left: 5rem;
   margin-top: 5rem;
-  /* border: 1px solid green; */
+  border: 1px solid green;
 }
 .product-txt {
   width: 720px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .product-txt h1 {
   font-size: 64px;
   line-height: 64px;
   margin-bottom: 2rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .product-txt p {
   width: 545px;
@@ -30,7 +30,7 @@
   font-size: 1rem;
   line-height: 22px;
   margin-bottom: 2rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .product-txt button {
   width: 210px;
@@ -43,14 +43,14 @@
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .product-rating {
   width: 596px;
   height: 74px;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-size: 35px;
   font-weight: 700;
   font-family: "Satoshi", sans-serif;
@@ -58,9 +58,9 @@
 /* .product-rating .rate {
   border-right: 1px solid grey;
 } */
-.product-rating .rate:last-child {
+/* .product-rating .rate:last-child {
   border-right: none;
-}
+} */
 .txt {
   font-size: 0.9rem;
   font-weight: 400;
