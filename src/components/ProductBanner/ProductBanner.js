@@ -15,18 +15,18 @@ function ProductBanner() {
         </div>
 
         <div className="product-rating">
-          <p className="rate">
+          <div className="rate">
             200+
             <p className="txt">International Brands</p>
-          </p>
-          <p className="rate">
+          </div>
+          <div className="rate">
             2,000+
             <p className="txt">High-Quality Products</p>
-          </p>
-          <p className="rate">
+          </div>
+          <div className="rate">
             30,000+
             <p className="txt">Happy Customers</p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

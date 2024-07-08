@@ -1,0 +1,19 @@
+/* Star style */
+.star {
+  display: flex;
+  font-family: "Satoshi", sans-serif;
+  gap: 2px;
+  margin: 5px 0;
+}
+.star svg {
+  width: 18.49px;
+  height: 18.49px;
+  color: #ffc633;
+  margin-top: 0.3rem;
+}
+.star p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
+  margin-left: 0.8rem;
+}
