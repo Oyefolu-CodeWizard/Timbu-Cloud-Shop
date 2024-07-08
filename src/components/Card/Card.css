@@ -4,7 +4,7 @@
   border-radius: 20px;
   padding: 1.5rem;
   font-family: "Satoshi", sans-serif;
-  border: 1px solid blue;
+  border: 1px solid rgba(128, 128, 128, 0.55);
 }
 .card h2 {
   font-size: 20px;

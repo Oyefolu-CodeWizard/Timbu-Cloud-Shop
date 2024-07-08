@@ -9,8 +9,25 @@ footer {
   background-color: #f0f0f0;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 7rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 footer div {
   cursor: pointer;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+  footer {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  footer p {
+    font-size: 14px;
+    margin-top: 1.7rem;
+  }
+  footer div {
+    display: flex;
+    margin-bottom: 0.8rem;
+  }
 }
