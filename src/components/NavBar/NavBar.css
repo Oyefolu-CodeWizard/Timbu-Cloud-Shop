@@ -31,3 +31,6 @@ p {
 .search input::placeholder {
   font-family: "Satoshi", sans-serif;
 }
+img {
+  cursor: pointer;
+}

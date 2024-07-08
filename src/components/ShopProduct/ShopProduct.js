@@ -58,7 +58,7 @@ const products = [
     price: "$225",
   },
   {
-    image: "../../assets/BeatsByDre.svg",
+    image: "../../assets/BeatByDre.svg",
     name: "Beats By Dre",
     price: "$400",
   },
