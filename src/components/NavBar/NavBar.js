@@ -20,7 +20,8 @@ function NavBar() {
             placeholder="Search for products..."
           />
         </div>
-        <p>
+        <p className="cart">
+          {/* <FontAwesomeIcon icon={faSearch} size="xl" /> */}
           <img src={faShoppingCart} alt="" />
         </p>
       </div>
