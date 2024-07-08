@@ -9,7 +9,7 @@ function Card({ image, name, price }) {
       <h2>{name}</h2>
       <Star />
       <p>{price}</p>
-      <Button />
+      <Button className={"add-to-cart"}>Add to cart</Button>
     </div>
   );
 }

@@ -22,7 +22,7 @@ function NavBar() {
         </div>
         <p className="cart">
           {/* <FontAwesomeIcon icon={faSearch} size="xl" /> */}
-          <img src={faShoppingCart} alt="" />
+          <img src={faShoppingCart} alt="ShoppingCart" />
         </p>
       </div>
     </nav>
