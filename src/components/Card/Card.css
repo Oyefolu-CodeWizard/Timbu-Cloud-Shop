@@ -17,3 +17,10 @@
   line-height: 32.4px;
   margin-bottom: 4px;
 }
+
+/* || SMALLL */
+@media screen and (max-width: 576px) {
+  .add-to-cart {
+    pointer-events: none;
+  }
+}

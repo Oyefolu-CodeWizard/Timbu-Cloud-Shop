@@ -1,3 +1,4 @@
+import CartPage from "./CartPage/CartPage";
 import Footer from "./Footer/Footer";
 import NavBar from "./NavBar/NavBar";
 import ProductBanner from "./ProductBanner/ProductBanner";
@@ -9,6 +10,7 @@ function TimbuCloudShop() {
       <NavBar />
       <ProductBanner />
       <ShopProduct />
+      <CartPage />
       <Footer />
     </main>
   );

@@ -1,0 +1,108 @@
+.cart-card {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  font-family: "Satoshi", sans-serif;
+  margin-bottom: 1rem;
+  /* border: 1px solid green; */
+}
+.cart-card:last-child {
+  border-bottom: none;
+}
+.rec-card {
+  width: 100%;
+  height: 124px;
+  display: flex;
+  border: 1px solid blue;
+}
+.rec-card img {
+  height: 124px;
+}
+.label-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 0.8rem;
+}
+/* .label {
+  flex-grow: 1;
+} */
+.label h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.label p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+.label .price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32.4px;
+  margin-top: 1.2rem;
+}
+.add-del {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16rem;
+  font-family: "Satoshi", sans-serif;
+}
+.add-del .add {
+  width: 126px;
+  background-color: rgb(0 0 0 / 10%);
+  border: none;
+  color: #000;
+}
+.add-del svg {
+  color: red;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+.minus,
+.plus {
+  font-size: 1.3rem;
+  margin: 0 1.4rem;
+  cursor: pointer;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+  .label-add {
+    width: 100%;
+    padding: 7px;
+    margin: 0;
+    border: 1px solid red;
+  }
+  .rec-card {
+    height: 95px;
+    /* flex-direction: column; */
+  }
+  .rec-card img {
+    width: 95px;
+    height: 95px;
+  }
+  .label h3 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .label p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .label .price {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .add-del svg {
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .minus,
+  .plus {
+    font-size: 1rem;
+    margin: 0 0.9rem;
+  }
+}
