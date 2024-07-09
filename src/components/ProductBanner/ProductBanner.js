@@ -1,5 +1,5 @@
 import "./ProductBanner.css";
-import Headset from "../../assets/MobileProductBanner.svg";
+import Headset from "../../assets/Headphone.svg";
 
 function ProductBanner() {
   return (
