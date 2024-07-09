@@ -4,7 +4,6 @@ nav .navBar {
   padding: 0.7rem 5rem;
   font-family: "Monument Extended", sans-serif;
   font-weight: 800;
-  border: 1px solid red;
 }
 h2,
 p {
@@ -17,7 +16,6 @@ p {
   padding: 10px;
   margin: 0 3rem;
   border-radius: 62px;
-  border: 1px solid red;
 }
 .search svg {
   color: grey;
@@ -32,9 +30,6 @@ p {
 .search input::placeholder {
   font-family: "Satoshi", sans-serif;
 }
-/* .cart svg {
-  display: none;
-} */
 img {
   cursor: pointer;
 }
@@ -50,11 +45,4 @@ img {
   .search {
     display: none;
   }
-  /* .cart {
-    display: flex;
-    gap: 1rem;
-  }
-  .cart svg {
-    display: block;
-  } */
 }
