@@ -1,0 +1,108 @@
+.box2 {
+  width: 505px;
+  height: 395px;
+  margin-left: 30px;
+}
+.box2 h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.summary {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.summary p,
+.total {
+  font-size: 20px;
+  font-weight: 400;
+}
+.summary .cost {
+  font-weight: 700;
+  font-size: 20px;
+}
+.total .total-price {
+  font-weight: 700;
+  font-size: 24px;
+}
+.delivery {
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  padding-bottom: 1.2rem;
+}
+.input-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+}
+.promo {
+  width: 310px;
+  background-color: rgb(0 0 0 / 10%);
+  border-radius: 62px;
+  padding: 0 10px;
+}
+.promo img {
+  width: 24px;
+  height: 24px;
+  padding-top: 10px;
+}
+.promo input {
+  background: transparent;
+  color: gray;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+.apply {
+  width: 135px;
+  height: 42px;
+}
+.checkout {
+  width: 457px;
+  background-color: #fca518;
+  color: #fff;
+}
+.checkout:hover {
+  background-color: rgba(252, 165, 24, 0.1);
+  border: 2px solid #fca518;
+  color: #000;
+}
+.checkout svg {
+  margin: 0 15px;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+  .box2 {
+    width: 358px;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .checkout {
+    width: 318px;
+    pointer-events: none;
+  }
+  .promo {
+    width: 218px;
+    display: flex;
+    padding: 0 10px;
+  }
+  .promo img {
+    width: 22px;
+    height: 22px;
+    padding-top: 10px;
+  }
+  .summary p,
+  .total {
+    font-size: 16px;
+  }
+  .summary .cost {
+    font-size: 16px;
+  }
+  .total .total-price {
+    font-size: 20px;
+  }
+  .apply {
+    width: 88px;
+    pointer-events: none;
+  }
+}

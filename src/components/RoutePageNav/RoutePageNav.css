@@ -1,0 +1,9 @@
+.cart-nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 1rem 0;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+}

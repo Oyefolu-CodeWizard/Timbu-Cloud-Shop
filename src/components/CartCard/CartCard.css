@@ -22,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin: 0 0.8rem;
+  /* margin: 0 0.8rem; */
 }
 /* .label {
   flex-grow: 1;
@@ -46,7 +46,7 @@
 .add-del {
   display: flex;
   flex-direction: column;
-  margin-left: 16rem;
+  margin-left: 14rem;
   font-family: "Satoshi", sans-serif;
 }
 .add-del .add {
@@ -71,10 +71,17 @@
 /* || SMALL */
 @media screen and (max-width: 576px) {
   .label-add {
-    width: 100%;
     padding: 7px;
-    margin: 0;
+    /* margin: 0; */
     border: 1px solid red;
+  }
+  .add-del {
+    margin-left: 2rem;
+    margin-right: 30px;
+  }
+  .add-del .add {
+    width: 80px;
+    height: 31px;
   }
   .rec-card {
     height: 95px;
@@ -98,7 +105,7 @@
   }
   .add-del svg {
     margin-bottom: 1rem;
-    margin-left: 0;
+    margin-left: 1rem;
   }
   .minus,
   .plus {
