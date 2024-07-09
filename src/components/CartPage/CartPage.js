@@ -1,5 +1,4 @@
 import "./CartPage.css";
-import faShoppingCart from "../../assets/faShoppingCart.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import CartCard from "../CartCard/CartCard";
@@ -13,7 +12,7 @@ function CartPage() {
   return (
     <div className="cart-page">
       <div className="cart-container">
-        <RoutePageNav faShoppingCart={faShoppingCart} />
+        <RoutePageNav />
         <div className="main-cart">
           <span onClick={() => navigate("/")}>Home</span>
           <FontAwesomeIcon icon={faAngleRight} />

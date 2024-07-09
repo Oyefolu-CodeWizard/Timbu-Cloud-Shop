@@ -66,7 +66,7 @@ const products = [
 
 function ShopProduct() {
   return (
-    <div className="shop-product">
+    <div className="shop-product" id="shop-now">
       <div className="line"></div>
 
       <div className="product-card">

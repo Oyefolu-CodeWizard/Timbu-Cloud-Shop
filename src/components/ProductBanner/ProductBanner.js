@@ -13,7 +13,9 @@ function ProductBanner() {
               designed to bring out your individuality and give you the best
               sound experience.
             </p>
-            <button>Shop Now</button>
+            <a href="#shop-now">
+              <button>Shop Now</button>
+            </a>
           </div>
 
           <div className="product-rating">

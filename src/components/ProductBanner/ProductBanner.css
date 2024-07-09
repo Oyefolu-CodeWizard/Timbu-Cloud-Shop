@@ -29,7 +29,7 @@
   line-height: 22px;
   margin-bottom: 2rem;
 }
-.product-txt button {
+.product-txt a button {
   width: 210px;
   height: 52px;
   border-radius: 62px;
@@ -42,7 +42,7 @@
   margin-bottom: 2.5rem;
   cursor: pointer;
 }
-.product-txt button:hover {
+.product-txt a:hover button {
   width: 210px;
   height: 52px;
   border-radius: 62px;

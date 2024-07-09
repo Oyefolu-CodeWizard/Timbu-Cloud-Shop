@@ -1,7 +1,6 @@
 import "./CheckoutPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import faShoppingCart from "../../assets/faShoppingCart.svg";
 import RoutePageNav from "../RoutePageNav/RoutePageNav";
 import Footer from "../Footer/Footer";
 import OrderPage from "../OrderPage/OrderPage";
@@ -13,7 +12,7 @@ function CheckoutPage() {
   return (
     <div className="checkout-page">
       <div className="checkout-container">
-        <RoutePageNav faShoppingCart={faShoppingCart} />
+        <RoutePageNav />
         <div className="main-checkout">
           <span onClick={() => navigate("/")}>Home</span>
           <FontAwesomeIcon icon={faAngleRight} />
