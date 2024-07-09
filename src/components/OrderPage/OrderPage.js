@@ -35,7 +35,7 @@ function OrderPage({ child, subTotal, deliveryFee, total }) {
           </div>
           <Button className={"apply"}>Apply</Button>
         </div>
-        <Button className={"checkout"}>
+        <Button className={"checkout"} text={child}>
           {child}
           <FontAwesomeIcon icon={faArrowRight} />
         </Button>

@@ -6,14 +6,16 @@ import CartCard from "../CartCard/CartCard";
 import Footer from "../Footer/Footer";
 import OrderPage from "../OrderPage/OrderPage";
 import RoutePageNav from "../RoutePageNav/RoutePageNav";
+import { useNavigate } from "react-router-dom";
 
 function CartPage() {
+  const navigate = useNavigate();
   return (
     <div className="cart-page">
       <div className="cart-container">
         <RoutePageNav faShoppingCart={faShoppingCart} />
         <div className="main-cart">
-          <span>Home</span>
+          <span onClick={() => navigate("/")}>Home</span>
           <FontAwesomeIcon icon={faAngleRight} />
           <span>Cart</span>
 

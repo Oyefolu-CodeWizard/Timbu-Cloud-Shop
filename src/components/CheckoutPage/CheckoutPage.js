@@ -6,16 +6,18 @@ import RoutePageNav from "../RoutePageNav/RoutePageNav";
 import Footer from "../Footer/Footer";
 import OrderPage from "../OrderPage/OrderPage";
 import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 
 function CheckoutPage() {
+  const navigate = useNavigate();
   return (
     <div className="checkout-page">
       <div className="checkout-container">
         <RoutePageNav faShoppingCart={faShoppingCart} />
         <div className="main-checkout">
-          <span>Home</span>
+          <span onClick={() => navigate("/")}>Home</span>
           <FontAwesomeIcon icon={faAngleRight} />
-          <span>Cart</span>
+          <span onClick={() => navigate("/cart")}>Cart</span>
           <FontAwesomeIcon icon={faAngleRight} />
           <span>Shipping</span>
 

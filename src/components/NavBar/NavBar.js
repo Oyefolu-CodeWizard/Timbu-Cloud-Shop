@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import faShoppingCart from "../../assets/faShoppingCart.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function NavBar() {
+  const navigate = useNavigate();
   const [searchProduct, setSearchProduct] = useState("");
 
   return (
@@ -22,7 +24,11 @@ function NavBar() {
         </div>
         <p className="cart">
           {/* <FontAwesomeIcon icon={faSearch} size="xl" /> */}
-          <img src={faShoppingCart} alt="ShoppingCart" />
+          <img
+            src={faShoppingCart}
+            alt="ShoppingCart"
+            onClick={() => navigate("/cart")}
+          />
         </p>
       </div>
     </nav>

@@ -8,12 +8,8 @@ import ShopProduct from "./ShopProduct/ShopProduct";
 function TimbuCloudShop() {
   return (
     <main>
-      <NavBar />
-      <ProductBanner />
-      <ShopProduct />
-      <CartPage />
-      <CheckoutPage />
-      <Footer />
+      {/* <CartPage />
+      <CheckoutPage /> */}
     </main>
   );
 }
