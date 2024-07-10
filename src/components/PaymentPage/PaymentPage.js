@@ -62,7 +62,9 @@ const PaymentPage = () => {
               </form>
               <div className="btns">
                 <p>Cancel order</p>
-                <Button className={"complete-order"}>Complete order</Button>
+                <Button className={"complete-order"} text={"Complete order"}>
+                  Complete order
+                </Button>
               </div>
             </div>
             <OrderPage

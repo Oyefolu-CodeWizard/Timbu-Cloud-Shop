@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar/NavBar";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
 import Payment from "../pages/Payment";
+import PaymentSuccessful from "../pages/PaymentSuccessful";
 
 let router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ let router = createBrowserRouter([
   {
     path: "/payment",
     element: <Payment />,
+  },
+  {
+    path: "/successful",
+    element: <PaymentSuccessful />,
   },
 ]);
 
