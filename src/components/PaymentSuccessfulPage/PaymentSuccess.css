@@ -1,0 +1,74 @@
+.successful-page {
+  width: 100%;
+}
+.main-successful {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.main-successful span,
+.main-successful svg {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.successful-box {
+  width: 451px;
+  height: 548px;
+  font-family: "Satoshi", sans-serif;
+  margin: 6rem auto;
+}
+.check-box {
+  width: 100%;
+  height: 434px;
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  padding: 3rem;
+}
+.green-check {
+  width: 100%;
+  height: 100%;
+}
+.green-check img {
+  display: flex;
+  margin: 2rem auto;
+}
+.successful-box p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.4px;
+  margin-top: 2rem;
+}
+.successful-box p a {
+  color: #000;
+  font-weight: 500;
+}
+.green-check .payment-done {
+  width: 323px;
+  background-color: #fca518;
+  color: #fff;
+  margin: 5rem 1rem;
+}
+.payment-done:hover {
+  background-color: rgba(252, 165, 24, 0.1);
+  border: 2px solid #fca518;
+  color: #000;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+  .successful-box p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .green-check .payment-done {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .successful-box {
+    width: 100%;
+  }
+}
