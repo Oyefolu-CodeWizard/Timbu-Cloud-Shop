@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import NavBar from "../components/NavBar/NavBar";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
+import Payment from "../pages/Payment";
 
 let router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ let router = createBrowserRouter([
   {
     path: "/checkout",
     element: <Checkout />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
   },
 ]);
 

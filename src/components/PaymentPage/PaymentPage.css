@@ -1,0 +1,71 @@
+.payment-page {
+  width: 100%;
+}
+.main-payment {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.main-payment span,
+.main-payment svg {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.payment-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.expiration {
+  display: flex;
+  justify-content: space-between;
+}
+.expired-date {
+  width: 229px;
+  display: flex;
+  gap: 20px;
+}
+.expiration input {
+  background-color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 62px;
+  margin-bottom: 10px;
+}
+.expired-date .left {
+  border-left: 2px solid grey;
+}
+.btns .complete-order {
+  width: 200px;
+  background-color: #fca518;
+  color: #fff;
+}
+.btns .complete-order:hover {
+  background-color: rgba(252, 165, 24, 0.1);
+  border: 2px solid #fca518;
+  color: #000;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+  .payment-box {
+    flex-direction: column;
+  }
+  .saved-card,
+  .expiration {
+    flex-direction: column;
+  }
+  .formic p {
+    margin-bottom: 1rem;
+  }
+  .expired-date {
+    width: 100%;
+  }
+  .btns .complete-order {
+    width: 146px;
+  }
+}
